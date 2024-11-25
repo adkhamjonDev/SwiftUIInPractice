@@ -14,7 +14,9 @@ struct SpotifyHomeView: View {
     
     var body: some View {
         ZStack{
+            
             Color.spotifyBlack.ignoresSafeArea()
+            
             ScrollView{
                 LazyVStack(spacing: 1,pinnedViews: [.sectionHeaders]) {
                     Section {
